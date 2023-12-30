@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jones Plumbing Co.</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f4f4f4, #e0e0e0);
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+    }
+
+    header h1,
+    header h5 {
+      margin: 0;
+      padding: 0.5em;
+    }
+
+    nav {
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 1em;
+    }
+
+    section {
+      padding: 40px 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      /* margin: 0 auto; */
+      margin: 10px auto;
+      text-align: center;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin-bottom: 30px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    img{
+        border-radius: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      /* position: fixed; */
+      position: relative;
+      width: 100%;
+      /* bottom: 0; */
+    }
+
+    .row-container {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+    }
+
+    #services,
+    #about {
+      width: 375px;
+      margin: 0;
+    }
+
+    #services {
+      margin-right: 5px;
+      text-align: center;
+    }
+
+    #services ul{
+      text-align: left; 
+      margin-left: 120px; 
+    }
+
+    #about {
+      margin-left: 5px;
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .row-container {
+        flex-direction: column;
+      }
+
+      #services,
+      #about {
+        width: 100%;
+        margin: 0;
+      }
+    }
+    
+    #services-link, 
+    #about-link, 
+    #contact-link{
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    #services:hover,
+    #about:hover,
+    #contact:hover {
+      transform: scale(1.03); /* You can adjust the scale factor as needed */
+      transition: transform 0.3s ease; /* Add a smooth transition effect */
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Jones Plumbing Co.</h1>
+    <h5>Call Now For Professional & Courteous Plumbing Services!</h5>
+    <h5>(716) 417-3711</h5>
+  </header>
+
+  <nav>
+    <a href="jpc.html">Home</a> |
+    <a href="services.html">Services</a> |
+    <a href="aboutUs.html">About Us</a> |
+    <a href="contactUs.html">Contact</a>
+  </nav>
+
+  <section id="home" class="container">
+    <h2>Welcome to Jones Plumbing Co.</h2>
+    <p>Owner operated licensed and insured master plumber with 30 years of experience servicing Western New York's residential and commercial plumbing repair, replacement, and installation needs. </p>
+  </section>
+
+  <div class="row-container">
+    <a id="services-link" href="services.html">
+      <section id="services" class="container">
+        <h2>Our Services</h2>
+        <ul>
+          <li>🏠 House Leaks</li>
+          <li>🌿 Yard Leaks</li>
+          <li>💦 Water Heater Leaks</li>
+          <li>❌ Whole House Stoppage</li>
+          <li>🚿 Hot Water Issues</li>
+          <li>🛠️ Clogged Drains</li>
+          <li>🚽 Toilet Problems</li>
+          <li>🚰 Faucets</li>
+          <li>🚫 Gas Leaks</li>
+        </ul>
+      </section>
+    </a>
+
+    <a id="about-link" href="aboutUs.html">
+      <section id="about" class="container">
+        <h2>About Us</h2>
+        <div class="img-container">
+          <img src="data:image/jpeg;base64,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" alt="Description of the image">
+        </div>
+        <p>Learn more about our experienced team and commitment to quality.</p>
+      </section>
+    </a>
+  </div>
+  <a id="contact-link" href="contactUs.html">
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <p>For inquiries or appointments, call us at: <strong>(716) 417-3711</strong></p>
+      <p>Email us at: <strong>info@jonesplumbingco.com</strong></p>
+      <!-- <p>Visit us at: <strong>500 Schoelles Road, Buffalo, NY</strong></p> -->
+    </section>
+  </a>
+
+  <footer>
+    <p>&copy; 2001 Jones Plumbing Co.</p>
+  </footer>
+</body>
+
+</html>
+
