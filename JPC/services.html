@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jones Plumbing Co.</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f4f4f4, #e0e0e0);
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2em 1em;
+    }
+
+    header h1,
+    header h5 {
+      margin: 0;
+      padding: 0.5em;
+    }
+
+    nav {
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 0.5em;
+    }
+
+    .wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 1em;
+    }
+
+    section {
+      flex: 1;  
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      width: 100%;
+      max-width: 1000px;
+      padding: 20px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-radius: 8px;
+      /* margin: 20px 0; */
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .row1,
+    .row2 {
+      height: 50vh;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    /* li {
+      margin-bottom: 15px;
+      width: 30%; /* Adjust as needed */
+      /* display: flex;
+      flex-direction: column; /* stack items vertically */
+      /* align-items: center; */ 
+    /* } */ 
+
+    li {
+        background-color: #f0f0f0; /* Set background color */
+        border-radius: 8px; /* Add rounded corners */
+        padding: 10px; /* Add padding for spacing */
+        margin-bottom: 15px; /* Add margin for spacing between tiles */
+        width: 30%; /* Adjust width as needed */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }       
+
+    li img {
+      /* margin-right: 15px; */
+      margin-bottom: 5px;
+      max-width: 30px;
+      max-height: 30px;
+    }
+
+    .emoji {
+        font-size: 24px; /* Adjust the size as needed */
+        margin-right: 5px; /* Add spacing between emoji and text */
+    }
+
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      /* position: fixed; */
+      /* width: 100%; */
+      /* bottom: 0; */
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrapper">
+  <header>
+    <h1>Jones Plumbing Co.</h1>
+    <h5>Call Now For Professional & Courteous Plumbing Services!</h5>
+    <h5>(716) 417-3711</h5>
+  </header>
+
+  <nav>
+    <a href="jpc.html">Home</a> |
+    <a href="services.html">Services</a> |
+    <a href="aboutUs.html">About Us</a> |
+    <a href="contactUs.html">Contact</a>
+  </nav>
+
+  <section id="services" class="row1">
+    <div class="box">
+      <h2>Our Plumbing Repair Services Include:</h2>
+      <ul>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🏠</span> House Leaks</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🌿</span> Yard Leaks</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">💦</span> Water Heater Leaks</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">❌</span> Whole House Stoppage</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚿</span> Hot Water Issues</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🛠️</span> Clogged Drains</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚽</span> Toilet Problems</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚰</span> Faucets</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚫</span> Gas Leaks</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h2>Our Plumbing Installation Services Include:</h2>
+      <ul>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🧰</span> Piping and Re-piping</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚿</span> Water Heater Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🔧</span> Sewer Pipe Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚰</span> Faucet Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🛠️</span> Drain Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🗑️</span> Garbage Disposal Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🚿</span> Shower Installation</li>
+        <li><span class="emoji" role="img" aria-label="Repair Icon">🛁</span> Bathtub Installation</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+  <footer>
+    <p>&copy; 2001 Jones Plumbing Co.</p>
+  </footer>
+</body>
+
+</html>
+
+
